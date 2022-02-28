@@ -1,0 +1,361 @@
+/* defolte css */
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+/* main css */
+.full-width{
+    width: 1321px;
+    margin: 0 auto;
+}
+.header-section{
+    background-color: #22c3a3;
+}
+.logo {
+    width: 20%;
+    height: auto;
+    float: left;
+    text-align: center;
+}
+.logo h1 a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    line-height: 62px;
+    margin-left: 13px;
+}
+.menu {
+    width: 70%;
+    height: auto;
+    float: right;
+    margin-right: 41px;
+}
+.menu ul{
+    list-style: none;
+    text-align: right;
+}
+.menu ul li {
+    display: inline-block;
+    padding: 21px 10px;
+}
+.menu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    transition: .5s;
+    color: #e1ecea;
+}
+.menu ul li a:hover{
+    color: red;
+}
+
+
+/* banner section */
+.banner-section {
+    background-image: url(https://i.ibb.co/t2nVGP2/header-bg01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 160px 0;
+    text-align: center;
+}
+.fix-w{
+    width: 600px;
+    height: auto;
+    margin: 0 auto;
+}
+.banner-section h1 {
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 48px;
+}
+.banner-section p {
+    color: #e1ecea;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+}
+.banner-section button {
+    background: none;
+    border: 1px solid rgb(180, 8, 8);
+    padding: 7px 17px;
+    margin-top: 20px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 4px;
+    transition: .9s;
+}
+.banner-section button:hover{
+    background-color: #fff;
+    color: #0cbe9a;
+    border: 1px solid rgb(41, 15, 212) !important;
+}
+/* service section */
+.service-section {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #0dbf9b;
+    padding: 60px 0;
+}
+.service{}
+.service h3 {
+    font-size: 29px;
+    font-weight: 600;
+}
+.service p {
+    color: #a0a0a0;
+    font-family: 'Open Sans';
+    margin-top: 20px;
+}
+
+.ser-fix-w {
+    width: 1000px;
+    height: auto;
+    margin: 60px auto;
+}
+.service1 {
+    width: 25%;
+    height: 150px;
+    padding: 31px;
+    float: left;
+    box-sizing: border-box;
+}
+.service1 .icon {
+    font-size: 36px;
+    margin-bottom: 17px;
+    color: #12c09d;
+}
+.service1 h2 {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 8px;
+    color: #5f5f5f;
+}
+.service1 p {
+    font-family: 'Open Sans';
+    font-size: 11px;
+    color: #858585;
+}
+.service2 {
+    width: 25%;
+    height: 150px;
+    padding: 31px;
+    float: left;
+    box-sizing: border-box;
+}
+.service2 .icon {
+    font-size: 36px;
+    margin-bottom: 17px;
+    color: #12c09d;
+}
+.service2 h2 {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 8px;
+    color: #5f5f5f;
+    
+}
+.service2 p {
+    font-family: 'Open Sans';
+    font-size: 11px;
+    color: #858585;
+}
+.service3 {
+    width: 25%;
+    height: 150px;
+    padding: 31px;
+    float: left;
+    box-sizing: border-box;
+}
+.service3 .icon {
+    font-size: 36px;
+    margin-bottom: 17px;
+    color: #12c09d;
+}
+.service3 h2 {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 8px;
+    color: #5f5f5f;
+}
+.service3 p {
+    font-family: 'Open Sans';
+    font-size: 11px;
+    color: #858585;
+}
+.service4 {
+    width: 25%;
+    height: 150px;
+    padding: 31px;
+    float: left;
+    box-sizing: border-box;
+}
+.service4 .icon {
+    font-size: 36px;
+    margin-bottom: 17px;
+    color: #12c09d;
+}
+.service4 h2 {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 8px;
+    color: #5f5f5f;
+}
+.service4 p {
+    font-family: 'Open Sans';
+    font-size: 11px;
+    color: #858585;
+}
+/* about section */
+.about-section{
+    width: 100%;
+    padding: 60px 0;
+}
+.about{}
+.about h3 {
+    font-size: 29px;
+    font-weight: 600;
+    text-align: center;
+}
+.about p {
+    color: #a0a0a0;
+    font-family: 'Open Sans';
+    margin-top: 20px;
+    text-align: center;
+}
+
+.about-fix-w {
+    width: 1100px;
+    height: auto;
+    margin: 42px auto;
+}
+.bamay{
+    width: 20%;
+    float: left;
+}
+.bamay img {
+    width: 500px;
+    
+}
+.danay{
+    width: 50%;
+    float: right;
+}
+.danay h3 {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #727272;
+    font-family: 'Open Sans';
+}
+.danay p {
+    font-family: 'Open Sans';
+    color: #a1a1a1;
+    font-size: 14px;
+}
+/* contact section */
+.contact-section{
+    background-color: #f6f6f6;
+    width: 100%;
+    padding: 60px 0;
+}
+.contact-fix-w {
+    width: 700px;
+    margin: 67px auto;
+}
+.contact h3 {
+    font-size: 29px;
+    font-weight: 600;
+    text-align: center;
+}
+.contact p {
+    color: #a0a0a0;
+    font-family: 'Open Sans';
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.location {
+    width: 30%;
+    height: auto;
+    margin-left: -19px;
+    float: left;
+}
+.location .icon {
+    color: #0cbf9a;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.location p {
+    text-align: center;
+    color: #8e8e8e;
+}
+.massage {
+    width: 26%;
+    height: auto;
+    margin-left: 80px;
+    float: left;
+}
+.massage .icon {
+    color: #0cbf9a;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.massage p {
+    text-align: center;
+    color: #8e8e8e;
+}
+.phone {
+    width: 17%;
+    height: auto;
+    float: left;
+    margin-left: 124px;
+}
+.phone .icon {
+    color: #0cbf9a;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.phone p {
+    text-align: center;
+    color: #8e8e8e;
+}
+.social-icon{
+    width: 100%;
+    background-color: #0dbf9b;
+    text-align: center;
+}
+.all-icon {
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+    padding-left: 40px;
+}
+.social-icon a {
+    color: #fff;
+    display: inline-block;
+    padding: 15px 5px;
+    font-size: 20px;
+}
+/* footer */
+.footer{
+    width: 100%;
+    background-color: #222222;
+    text-align: center;
+}
+.footer p{
+    color: #494949;
+    font-size: 15px;
+    font-family: 'Open Sans';
+    padding: 15px 0;
+}

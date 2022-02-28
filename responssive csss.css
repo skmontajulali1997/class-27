@@ -1,0 +1,318 @@
+@media (max-width: 1400px) {
+
+    .full-width {
+        width: 100%;
+    }
+}
+@media (max-width: 1100px) {
+    .about-fix-w {
+        width: 100%;
+       
+    }
+    .bamay img {
+        width: 448px;
+    }
+
+    .bamay {
+        width: 30%;
+        margin-left: 40px;
+        margin-top: 18px;
+    }
+
+    .danay {
+        width: 50%;
+        margin-right: 18px;
+        line-height: 22px;
+    }
+
+    
+}
+
+@media (max-width: 1050px){
+    .bamay {
+        width: 80%;
+       
+        margin-left: 115px;
+    }
+    .bamay img {
+        width: 100%;
+    }
+
+    .danay {
+        width: 80%;
+        margin-right: 96px;
+        line-height: 22px;
+        margin-top: 27px;
+    }
+
+}
+@media (max-width: 1000px) {
+
+    .ser-fix-w {
+        width: 100%;
+
+    }
+    .danay {
+     margin-right: 86px;
+        
+    }
+
+}
+
+@media (max-width: 950px){
+    .bamay {
+        margin-left: 104px;
+    }
+
+}
+@media (max-width: 900px){
+    .bamay {
+        margin-left: 100px;
+    }
+
+}
+@media (max-width: 840px){
+    .logo h1 a {
+        font-size: 20px;
+        
+    }
+    .bamay {
+        margin-left: 83px;
+    }
+    .about-section {
+         padding: 18px 0;
+    }
+
+}
+
+/* manubar */
+.responsiv-menu{
+    display: none;
+}
+.menu ul {
+    margin-bottom: 0;
+}
+.logo h1{
+    margin-bottom: 0;
+}
+@media (max-width: 770px){
+    .logo h1 a {
+        font-size: 19px;
+        
+    }
+    .bamay {
+        margin-left: 68px;
+    }
+
+    .service1 {
+        width: 50%;
+       
+    }
+    .service2 {
+        width: 50%;
+       
+    }
+    .service3 {
+        width: 50%;
+        margin-top: 25px;
+  
+    }
+    .service4 {
+        width: 50%;
+        margin-top: 25px;
+       
+    }
+
+    .contact-fix-w {
+        width: 100%;
+        margin: 30px auto;
+        
+
+    }
+    .about-section {
+        padding: 18px 0;
+    }
+    .contact-section {
+        padding: 38px 0;
+    }
+
+    .location {
+        width: 100%;
+        height: auto;
+        margin-left: -19px;
+        float: left;
+    }
+
+    .massage {
+        width: 100%;
+        margin-left: -22px;
+        margin-top: 50px;
+    }
+
+    .phone {
+        width: 100%;
+        margin-left: -23px;
+        margin-top: 60px;
+    }
+
+    .responsiv-menu {
+        display: inline-block !important;
+        position: absolute;
+        top: -4px;
+        right: 68px;
+    }
+    .logo {
+        width: 42%;
+
+    }
+
+
+    ul.responsiv-ul {
+        margin-bottom: 0;
+        padding: 0;
+        display: block !important;
+    }
+    ul.responsiv-ul li {
+        display: block;
+        text-align: left
+    }
+    ul.responsiv-ul li a {
+        color: #111;
+    }
+
+    .responsiv-menu {
+        text-align: end;
+        margin-top: 16px;
+    }
+    .menu ul {
+        display: none;
+    }
+}
+@media (max-width: 600px){
+   
+    .fix-w {
+        width: 100%;
+    }
+    .banner-section {
+        padding: 86px 0;
+        
+    }
+    .banner-section h1 {
+        font-size: 40px;
+        margin-bottom: 21px;
+    }
+    .banner-section p {
+        font-weight: 600;
+        font-size: 12px;
+    }
+    .service p {
+        
+        padding: 0 81px;
+    }
+    
+
+    .bamay {
+        margin-left: 64px;
+    }
+    .danay {
+        margin-right: 58px;
+    }
+    .about p {
+        padding: 0 82px;
+    }
+    .contact p {
+        padding: 0 82px;
+        font-size: 14px;
+    }
+
+}
+@media (max-width: 680px){
+    .danay {
+        margin-right: 63px;
+    }
+}
+@media (max-width: 550px){
+    .danay {
+        margin-right: 48px;
+    }
+}
+@media (max-width: 450px){
+    .danay {
+        margin-right: 32px;
+    }
+}
+
+@media (max-width: 500px){
+
+    .bamay {
+        margin-left: 53px;
+    }
+    .danay {
+        margin-right: 46px;
+    }
+}
+@media (max-width: 400px){
+    .logo {
+        width: 54%;
+    }
+
+    .responsiv-menu {
+        
+        right: 37px;
+    }
+
+    .banner-section h1 {
+        font-size: 25px;
+        
+    }
+    .bamay {
+        margin-left: 45px;
+    }
+
+    .danay {
+        margin-right: 29px;
+    }
+    .contact-section {
+        padding: 21px 0;
+    }
+    .all-icon {
+        padding-left: 0;
+        width: 100%;
+    }
+    .social-icon a {
+        font-size: 15px;
+    }
+
+    .footer p {
+        font-size: 10px;
+        
+    }
+}
+@media (max-width: 340px){
+
+    .ser-fix-w {
+        margin-top: 0;
+    }
+    .service3 {
+        
+        margin-top: 54px;
+    }
+    .service4 {
+        
+        margin-top: 54px;
+    }
+
+    .location {
+        
+        margin-left: 5px;
+        
+    }
+    .massage {
+        margin-left: 5px;
+        
+    }
+    .phone {
+        margin-left: 6px;
+    }
+
+}
